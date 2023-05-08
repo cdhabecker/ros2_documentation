@@ -13,6 +13,8 @@ Glossary of terms used throughout this documentation:
    client_library
        A client library is an :term:`API` that provides access to the ROS graph using primitive middleware concepts like Topics, Services, and Actions.
 
+.. _glossary_package:
+
    package
        A single unit of software, including source code, build system files, documentation, tests, and other associated resources.
 

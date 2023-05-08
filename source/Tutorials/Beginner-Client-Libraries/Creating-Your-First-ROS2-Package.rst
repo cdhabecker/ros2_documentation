@@ -23,12 +23,12 @@ Background
 1 What is a ROS 2 package?
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-A package can be considered a container for your ROS 2 code.
-If you want to be able to install your code or share it with others, then you'll need it organized in a package.
-With packages, you can release your ROS 2 work and allow others to build and use it easily.
+A ROS 2 :ref:`package <glossary-package>` is an organizational unit for your ROS 2 code.
+If you want to be able to install your code or share it with others, you need to organize it in a package.
 
-Package creation in ROS 2 uses ament as its build system and colcon as its build tool.
-You can create a package using either CMake or Python, which are officially supported, though other build types do exist.
+Each ROS 2 package uses an ament-compatible build system such as ament_cmake or ament_python.
+ROS 2 packages use colcon as the build tool.
+
 
 2 What makes up a ROS 2 package?
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
